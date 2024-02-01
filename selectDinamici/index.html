@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <title>Seleziona Località</title>
+  <style>
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <label for="regione">Regione:</label>
+  <select id="regione" onchange="caricaProvince()">
+  </select>
+
+  <label for="provincia">Provincia:</label>
+  <select id="provincia" onchange="caricaComuni()">
+  </select>
+
+  <label for="comune">Comune:</label>
+  <select id="comune">
+  </select>
+
+  <script src="select.js"></script>
+</body>
+</html>
